@@ -201,7 +201,7 @@ def playerMusicaMenu():
     verificador = 0
     while verificador != 1:
         limparTela()
-        print(f"""\nFunções disponiveis:\n* [1]  ▶ Play{" "*13}* [2] ⏸  Pause\n* [3] 🔁 Replay {" "*10}* [4] 🔄 Loop\n* [5] ⏭️  Próxima{" "*10}* [6] ⏮️  Retornar\n* [7] 🔀 Aleatório{" "*8}* [8] ⚙️  Escolher Outra Playlist\n* [9] 📄 Ver a última música\n\n* [0] 🚪 Sair""")
+        print(f"""\nFunções disponiveis:\n* [1] Play{" "*13}* [2] Pause\n* [3] Replay {" "*10}* [4] Loop\n* [5] Próxima{" "*10}* [6] Retornar\n* [7] Aleatório{" "*8}* [8] Escolher Outra Playlist\n* [9] Ver a última música\n\n* [0] Sair""")
         term = int(input("Digite o número da opção: "))
         match term:
             case 0:
