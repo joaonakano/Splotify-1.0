@@ -141,6 +141,7 @@ def menuOpcoes():
         ListaMusicas(playlist1)
     elif escolha == "3":
         print(mensagem_introducao[1])
+        exit()
     else:
         print("Opção inválida. Escolha novamente.")
         timer(1.5)
