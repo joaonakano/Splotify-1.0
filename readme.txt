@@ -3,5 +3,6 @@ The following project needs the library Pygame installed in order to run properl
 2. Wait for the terminal to finish the setup.
 3. Close the window after the installation.
 4. Run the main.py file.
+5. (IMPORTANT) If you're using an IDE like VSCode, open the project folder, aka "Splotify-main", on the editor then run the main.py file there.
 
 If you liked the early project, consider sending a feedback to us. =)
